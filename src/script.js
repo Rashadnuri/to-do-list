@@ -252,21 +252,21 @@ class DOMManipulator {
 
 const manipulator = new DOMManipulator(new TodoService([{ id: 1, title: "" }]));
 
-let gradientArr = [
-  "gradient1",
-  "gradient2",
-  "gradient3",
-  "gradient4",
-  "gradient5",
-  "gradient6",
-  "gradient7",
-  "gradient8",
-];
-let count = true;
-function randomNum(min, max) {
-  var randomResult = Math.floor(Math.random() * (max - min)) + min;
-  document.querySelector("body").classList.add(`${gradientArr[randomResult]}`);
-  document.querySelector("#add-btn").classList.add(`${gradientArr[randomResult]}`);
-  return randomResult;
-}
-randomNum(0, 8);
+// let gradientArr = [
+//   "gradient1",
+//   "gradient2",
+//   "gradient3",
+//   "gradient4",
+//   "gradient5",
+//   "gradient6",
+//   "gradient7",
+//   "gradient8",
+// ];
+// let count = true;
+// function randomNum(min, max) {
+//   var randomResult = Math.floor(Math.random() * (max - min)) + min;
+//   document.querySelector("body").classList.add(`${gradientArr[randomResult]}`);
+//   document.querySelector("#add-btn").classList.add(`${gradientArr[randomResult]}`);
+//   return randomResult;
+// }
+// randomNum(0, 8);
